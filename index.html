@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prem Arun P | Student Portfolio</title>
+    <meta name="description" content="Student portfolio of Prem Arun P, a final-year Electronics and Communication Engineering student focused on VLSI, embedded systems, digital design, and ASIC flow.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <a class="brand" href="files/Prem_Arun_P_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#responsibility">Position of Responsibility</a>
+                <a href="#profiles">Profiles</a>
+                <a href="#contact">Contact</a>
+                <a href="#connect">Reach Me</a>
+            </div>
+        </nav>
+
+        <div class="hero-content hero-content-single" id="top">
+            <div class="hero-copy">
+                <div class="hero-topline">
+                    <div>
+                        <h1>PREM ARUN P</h1>
+                        <p class="hero-role">Final Year Electronics and Communication Engineering Student</p>
+                        <p class="hero-college">Madras Institute of Technology, Anna University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="about">
+            <div class="section-heading">
+                <h2>About</h2>
+            </div>
+            <div class="about-grid">
+                <p>
+                    I'm a final-year Electronics and Communication Engineering student with interests in VLSI design,
+                    and embedded systems, along with hands-on experience in 
+                    processor design, verification, FPGA implementation, and embedded development.
+                </p>
+                <p><strong>Area of Interest:</strong> RTL Design, Physical Design, Embedded System</p>
+            </div>
+        </section>
+
+        <section class="section" id="education">
+            <div class="section-heading">
+                <h2>Education</h2>
+            </div>
+            <article class="timeline-card">
+                <span class="timeline-year">2022 - Present</span>
+                <h3>Madras Institute of Technology, Anna University</h3>
+                <p>B.E. in Electronics and Communication Engineering</p>
+                <p>CGPA: 7.96 / 10</p>
+            </article>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="section-heading">
+                <h2>Experience</h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline-card">
+                    <span class="timeline-year">July 2024 - Aug 2024</span>
+                    <h3>Embedded Systems Intern</h3>
+                    <p class="subtitle">CodeBind Technologies</p>
+                    <ul>
+                        <li>Worked on Arduino and ESP32-based embedded system projects.</li>
+                        <li>Performed sensor interfacing and serial communication tasks.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-heading">
+                <h2>Projects</h2>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Power Optimization Using Adiabatic Switching for High-Speed Adder</h3>
+                    <div class="project-tools">
+                        <span>LTSpice</span>
+                    </div>
+                    <p>
+                        Designed a 16-bit Weinberger adder using adiabatic switching and PFAL logic
+                        to reduce dynamic power consumption.
+                    </p>
+                    <a class="project-link project-icon-link" href="https://github.com/premarun37/power-optimization-using-adiabatic-switching-for-high-speed-adder.git" target="_blank" rel="noreferrer" aria-label="Open Power Optimization project on GitHub">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0.5C5.37 0.5 0 5.87 0 12.5c0 5.3 3.44 9.79 8.21 11.38 0.6 0.11 0.82-0.26 0.82-0.58 0-0.29-0.01-1.04-0.02-2.05-3.34 0.73-4.04-1.61-4.04-1.61-0.55-1.39-1.33-1.76-1.33-1.76-1.09-0.75 0.08-0.73 0.08-0.73 1.2 0.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.31 3.5 1 0.11-0.78 0.42-1.31 0.76-1.61-2.67-0.3-5.47-1.33-5.47-5.93 0-1.31 0.47-2.38 1.24-3.22-0.12-0.3-0.54-1.52 0.12-3.16 0 0 1.01-0.32 3.3 1.23 0.96-0.27 1.98-0.4 3-0.41 1.02 0 2.04 0.14 3 0.41 2.29-1.55 3.29-1.23 3.29-1.23 0.66 1.64 0.24 2.86 0.12 3.16 0.77 0.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92 0.43 0.37 0.82 1.1 0.82 2.22 0 1.61-0.01 2.9-0.01 3.3 0 0.32 0.22 0.7 0.83 0.58C20.57 22.29 24 17.8 24 12.5 24 5.87 18.63 0.5 12 0.5Z"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <h3>32-bit MIPS Single Cycle Processor</h3>
+                    <div class="project-tools">
+                        <span>Verilog</span>
+                        <span>Vivado</span>
+                    </div>
+                    <p>
+                        Designed a complete MIPS CPU in Verilog, including datapath and control unit,
+                        and verified the design using simulation and timing analysis in Vivado.
+                    </p>
+                    <a class="project-link project-icon-link" href="https://github.com/premarun37/mips32-single-cycle-datapath.git" target="_blank" rel="noreferrer" aria-label="Open MIPS project on GitHub">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0.5C5.37 0.5 0 5.87 0 12.5c0 5.3 3.44 9.79 8.21 11.38 0.6 0.11 0.82-0.26 0.82-0.58 0-0.29-0.01-1.04-0.02-2.05-3.34 0.73-4.04-1.61-4.04-1.61-0.55-1.39-1.33-1.76-1.33-1.76-1.09-0.75 0.08-0.73 0.08-0.73 1.2 0.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.31 3.5 1 0.11-0.78 0.42-1.31 0.76-1.61-2.67-0.3-5.47-1.33-5.47-5.93 0-1.31 0.47-2.38 1.24-3.22-0.12-0.3-0.54-1.52 0.12-3.16 0 0 1.01-0.32 3.3 1.23 0.96-0.27 1.98-0.4 3-0.41 1.02 0 2.04 0.14 3 0.41 2.29-1.55 3.29-1.23 3.29-1.23 0.66 1.64 0.24 2.86 0.12 3.16 0.77 0.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92 0.43 0.37 0.82 1.1 0.82 2.22 0 1.61-0.01 2.9-0.01 3.3 0 0.32 0.22 0.7 0.83 0.58C20.57 22.29 24 17.8 24 12.5 24 5.87 18.63 0.5 12 0.5Z"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <h3>APB-GPIO Interface Verification</h3>
+                    <div class="project-tools">
+                        <span>SystemVerilog</span>
+                        <span>EDA Playground</span>
+                    </div>
+                    <p>
+                        Built an AMBA APB-compliant GPIO interface and verified functionality using a
+                        SystemVerilog-based verification environment.
+                    </p>
+                    <a class="project-link project-icon-link" href="https://github.com/premarun37/design-and-verification-of-APB-to-GPIO-interface-using-SystemVerilog.git" target="_blank" rel="noreferrer" aria-label="Open APB GPIO project on GitHub">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0.5C5.37 0.5 0 5.87 0 12.5c0 5.3 3.44 9.79 8.21 11.38 0.6 0.11 0.82-0.26 0.82-0.58 0-0.29-0.01-1.04-0.02-2.05-3.34 0.73-4.04-1.61-4.04-1.61-0.55-1.39-1.33-1.76-1.33-1.76-1.09-0.75 0.08-0.73 0.08-0.73 1.2 0.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.31 3.5 1 0.11-0.78 0.42-1.31 0.76-1.61-2.67-0.3-5.47-1.33-5.47-5.93 0-1.31 0.47-2.38 1.24-3.22-0.12-0.3-0.54-1.52 0.12-3.16 0 0 1.01-0.32 3.3 1.23 0.96-0.27 1.98-0.4 3-0.41 1.02 0 2.04 0.14 3 0.41 2.29-1.55 3.29-1.23 3.29-1.23 0.66 1.64 0.24 2.86 0.12 3.16 0.77 0.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92 0.43 0.37 0.82 1.1 0.82 2.22 0 1.61-0.01 2.9-0.01 3.3 0 0.32 0.22 0.7 0.83 0.58C20.57 22.29 24 17.8 24 12.5 24 5.87 18.63 0.5 12 0.5Z"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Robotic Arm Manipulator</h3>
+                    <div class="project-tools">
+                        <span>Arduino IDE</span>
+                    </div>
+                    <p>
+                        Built a Bluetooth-controlled robotic arm using Arduino with PWM-based servo
+                        control for precise actuation.
+                    </p>
+                    <a class="project-link project-icon-link" href="https://github.com/premarun37/wireless-pick-and-place-robotic-arm.git" target="_blank" rel="noreferrer" aria-label="Open robotic arm project on GitHub">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0.5C5.37 0.5 0 5.87 0 12.5c0 5.3 3.44 9.79 8.21 11.38 0.6 0.11 0.82-0.26 0.82-0.58 0-0.29-0.01-1.04-0.02-2.05-3.34 0.73-4.04-1.61-4.04-1.61-0.55-1.39-1.33-1.76-1.33-1.76-1.09-0.75 0.08-0.73 0.08-0.73 1.2 0.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.31 3.5 1 0.11-0.78 0.42-1.31 0.76-1.61-2.67-0.3-5.47-1.33-5.47-5.93 0-1.31 0.47-2.38 1.24-3.22-0.12-0.3-0.54-1.52 0.12-3.16 0 0 1.01-0.32 3.3 1.23 0.96-0.27 1.98-0.4 3-0.41 1.02 0 2.04 0.14 3 0.41 2.29-1.55 3.29-1.23 3.29-1.23 0.66 1.64 0.24 2.86 0.12 3.16 0.77 0.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92 0.43 0.37 0.82 1.1 0.82 2.22 0 1.61-0.01 2.9-0.01 3.3 0 0.32 0.22 0.7 0.83 0.58C20.57 22.29 24 17.8 24 12.5 24 5.87 18.63 0.5 12 0.5Z"/>
+                        </svg>
+                    </a>
+                </article>
+
+
+                <article class="project-card">
+                    <h3>Li-Fi Based Audio Transmission System</h3>
+                    <p>
+                        Developed a Li-Fi based system to transmit audio signals wirelessly using visible light.
+                    </p>
+                    <a class="project-link project-icon-link" href="https://github.com/premarun37/lifi-audio-transmission.git" target="_blank" rel="noreferrer" aria-label="Open Li-Fi project on GitHub">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0.5C5.37 0.5 0 5.87 0 12.5c0 5.3 3.44 9.79 8.21 11.38 0.6 0.11 0.82-0.26 0.82-0.58 0-0.29-0.01-1.04-0.02-2.05-3.34 0.73-4.04-1.61-4.04-1.61-0.55-1.39-1.33-1.76-1.33-1.76-1.09-0.75 0.08-0.73 0.08-0.73 1.2 0.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.31 3.5 1 0.11-0.78 0.42-1.31 0.76-1.61-2.67-0.3-5.47-1.33-5.47-5.93 0-1.31 0.47-2.38 1.24-3.22-0.12-0.3-0.54-1.52 0.12-3.16 0 0 1.01-0.32 3.3 1.23 0.96-0.27 1.98-0.4 3-0.41 1.02 0 2.04 0.14 3 0.41 2.29-1.55 3.29-1.23 3.29-1.23 0.66 1.64 0.24 2.86 0.12 3.16 0.77 0.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92 0.43 0.37 0.82 1.1 0.82 2.22 0 1.61-0.01 2.9-0.01 3.3 0 0.32 0.22 0.7 0.83 0.58C20.57 22.29 24 17.8 24 12.5 24 5.87 18.63 0.5 12 0.5Z"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Smart Parking System</h3>
+                    <div class="project-tools">
+                        <span>Arduino IDE</span>
+                    </div>
+                    <p>
+                        Implemented automated gate control and parking allocation using sensors and
+                        Wi-Fi communication on ESP32.
+                    </p>
+                    <a class="project-link project-icon-link" href="https://github.com/premarun37/automatic-gate-control-for-smart-parking-system.git" target="_blank" rel="noreferrer" aria-label="Open Smart Parking project on GitHub">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0.5C5.37 0.5 0 5.87 0 12.5c0 5.3 3.44 9.79 8.21 11.38 0.6 0.11 0.82-0.26 0.82-0.58 0-0.29-0.01-1.04-0.02-2.05-3.34 0.73-4.04-1.61-4.04-1.61-0.55-1.39-1.33-1.76-1.33-1.76-1.09-0.75 0.08-0.73 0.08-0.73 1.2 0.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.31 3.5 1 0.11-0.78 0.42-1.31 0.76-1.61-2.67-0.3-5.47-1.33-5.47-5.93 0-1.31 0.47-2.38 1.24-3.22-0.12-0.3-0.54-1.52 0.12-3.16 0 0 1.01-0.32 3.3 1.23 0.96-0.27 1.98-0.4 3-0.41 1.02 0 2.04 0.14 3 0.41 2.29-1.55 3.29-1.23 3.29-1.23 0.66 1.64 0.24 2.86 0.12 3.16 0.77 0.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92 0.43 0.37 0.82 1.1 0.82 2.22 0 1.61-0.01 2.9-0.01 3.3 0 0.32 0.22 0.7 0.83 0.58C20.57 22.29 24 17.8 24 12.5 24 5.87 18.63 0.5 12 0.5Z"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Traffic Sign Detection</h3>
+                    <div class="project-tools">
+                        <span>MATLAB</span>
+                    </div>
+                    <p>
+                        Developed a traffic sign detection system using image processing to identify and
+                        highlight STOP signs.
+                    </p>
+                    <a class="project-link project-icon-link" href="https://github.com/premarun37/traffic-sign-detection-using-matlab.git" target="_blank" rel="noreferrer" aria-label="Open Traffic Sign Detection project on GitHub">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0.5C5.37 0.5 0 5.87 0 12.5c0 5.3 3.44 9.79 8.21 11.38 0.6 0.11 0.82-0.26 0.82-0.58 0-0.29-0.01-1.04-0.02-2.05-3.34 0.73-4.04-1.61-4.04-1.61-0.55-1.39-1.33-1.76-1.33-1.76-1.09-0.75 0.08-0.73 0.08-0.73 1.2 0.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.31 3.5 1 0.11-0.78 0.42-1.31 0.76-1.61-2.67-0.3-5.47-1.33-5.47-5.93 0-1.31 0.47-2.38 1.24-3.22-0.12-0.3-0.54-1.52 0.12-3.16 0 0 1.01-0.32 3.3 1.23 0.96-0.27 1.98-0.4 3-0.41 1.02 0 2.04 0.14 3 0.41 2.29-1.55 3.29-1.23 3.29-1.23 0.66 1.64 0.24 2.86 0.12 3.16 0.77 0.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92 0.43 0.37 0.82 1.1 0.82 2.22 0 1.61-0.01 2.9-0.01 3.3 0 0.32 0.22 0.7 0.83 0.58C20.57 22.29 24 17.8 24 12.5 24 5.87 18.63 0.5 12 0.5Z"/>
+                        </svg>
+                    </a>
+                </article>
+
+                
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-heading">
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-layout">
+                <div class="skill-block">
+                    <h3>Languages</h3>
+                    <div class="chip-group">
+                        <span>C</span>
+                        <span>Verilog</span>
+                        <span>SystemVerilog</span>
+                        <span>Embedded C</span>
+                    </div>
+                </div>
+
+                <div class="skill-block">
+                    <h3>Tools &amp; Platforms</h3>
+                    <div class="chip-group">
+                        <span>Vivado</span>
+                        <span>EDA Playground</span>
+                        <span>LTSpice</span>
+                        <span>Cadence</span>
+                        <span>OpenLane</span>
+                        <span>Linux</span>
+                        <span>Proteus</span>
+                        <span>Keil uVision</span>
+                    </div>
+                </div>
+
+                <div class="skill-block">
+                    <h3>Domains</h3>
+                    <div class="chip-group">
+                        <span>ASIC Design Flow</span>
+                        <span>FPGA Implementation</span>
+                        <span>Digital Design</span>
+                        <span>Embedded Systems</span>
+                    </div>
+                </div>
+
+                <div class="skill-block">
+                    <h3>Soft Skills</h3>
+                    <div class="chip-group">
+                        <span>Quick Learning</span>
+                        <span>Creativity</span>
+                        <span>Multitasking</span>
+                        <span>Adaptability</span>
+                    </div>
+                </div>
+
+                <div class="skill-block">
+                    <h3>Spoken Languages</h3>
+                    <div class="chip-group">
+                        <span>Tamil (Native)</span>
+                        <span>English (Fluent)</span>
+                        <span>German (Intermediate)</span>
+                        <span>Hindi (Intermediate)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="certifications">
+            <div class="section-heading">
+                <h2>Certifications</h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline-card">
+                    <h3>VLSI Design Flow: RTL to GDSII</h3>
+                    <p class="subtitle">NPTEL</p>
+                </article>
+
+                <article class="timeline-card">
+                    <h3>Paper Presentation</h3>
+                    <p class="subtitle">AISSEWS National Conference (2025)</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="responsibility">
+            <div class="section-heading">
+                <h2>Position of Responsibility</h2>
+            </div>
+            <div class="timeline">
+                
+                <article class="timeline-card">
+                    <h3>Event Organizer in Department Symposium</h3>
+                </article>
+
+                <article class="timeline-card">
+                    <h3>NSO Volunteer</h3>
+                </article>
+                
+            </div>
+        </section>
+
+        <section class="section" id="profiles">
+            <div class="section-heading">
+                <h2>Profiles</h2>
+            </div>
+            <div class="contact-card">
+                <div class="contact-socials">
+                    <a class="social-link" href="https://github.com/premarun37" target="_blank" rel="noreferrer" aria-label="GitHub Profile">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0.5C5.37 0.5 0 5.87 0 12.5c0 5.3 3.44 9.79 8.21 11.38 0.6 0.11 0.82-0.26 0.82-0.58 0-0.29-0.01-1.04-0.02-2.05-3.34 0.73-4.04-1.61-4.04-1.61-0.55-1.39-1.33-1.76-1.33-1.76-1.09-0.75 0.08-0.73 0.08-0.73 1.2 0.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.31 3.5 1 0.11-0.78 0.42-1.31 0.76-1.61-2.67-0.3-5.47-1.33-5.47-5.93 0-1.31 0.47-2.38 1.24-3.22-0.12-0.3-0.54-1.52 0.12-3.16 0 0 1.01-0.32 3.3 1.23 0.96-0.27 1.98-0.4 3-0.41 1.02 0 2.04 0.14 3 0.41 2.29-1.55 3.29-1.23 3.29-1.23 0.66 1.64 0.24 2.86 0.12 3.16 0.77 0.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92 0.43 0.37 0.82 1.1 0.82 2.22 0 1.61-0.01 2.9-0.01 3.3 0 0.32 0.22 0.7 0.83 0.58C20.57 22.29 24 17.8 24 12.5 24 5.87 18.63 0.5 12 0.5Z"/>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                    <a class="social-link" href="https://linkedin.com/in/prem-arun-p" target="_blank" rel="noreferrer" aria-label="LinkedIn Profile">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4.98 3.5a2.49 2.49 0 1 1 0 4.98 2.49 2.49 0 0 1 0-4.98ZM3 9h4v12H3V9Zm7 0h3.83v1.64h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.66 4.8 6.12V21h-4v-5.53c0-1.32-.03-3.01-1.84-3.01-1.84 0-2.12 1.44-2.12 2.92V21h-4V9Z"/>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a class="social-link" href="https://hdlbits.01xz.net/wiki/Special:VlgStats/5B74EC6821BFE2A1" target="_blank" rel="noreferrer" aria-label="HDLBits Profile">
+                        <img src="files/HDLBits_Website_logo.jpeg" alt="HDLBits logo">
+                        <span>HDLBits</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="section-heading">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-card">
+                <div class="contact-location-row">
+                    <div class="social-link social-link-static" aria-label="Location">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z"/>
+                        </svg>
+                        <span>Chennai, Tamil Nadu</span>
+                    </div>
+                </div>
+                <div class="contact-socials">
+                    <a class="social-link" href="mailto:premarun37.mit@gmail.com" aria-label="Send email">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm0 2v.51l9 6 9-6V7l-9 6-9-6Zm18 11V9.49l-8.43 5.62a1 1 0 0 1-1.14 0L3 9.49V18h18Z"/>
+                        </svg>
+                        <span>Email</span>
+                    </a>
+                    <a class="social-link" href="tel:+917418156137" aria-label="Call mobile number">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1-.24c1.12.37 2.33.57 3.59.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.85 21 3 13.15 3 3a1 1 0 0 1 1-1h3.49a1 1 0 0 1 1 1c0 1.26.2 2.47.57 3.59a1 1 0 0 1-.24 1l-2.2 2.2Z"/>
+                        </svg>
+                        <span>Phone</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="connect">
+            <div class="section-heading">
+                <h2>Reach Me</h2>
+            </div>
+            <form class="connect-form" action="https://formspree.io/f/mlgoraby" method="POST">
+                <input type="hidden" name="_subject" value="New portfolio contact message">
+                <div class="form-grid">
+                    <div class="form-field">
+                        <label for="connect-name">Name</label>
+                        <input id="connect-name" name="name" type="text" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="connect-email">Email</label>
+                        <input id="connect-email" name="email" type="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <label for="connect-message">Message</label>
+                    <textarea id="connect-message" name="message" rows="6" placeholder="Write your message" required></textarea>
+                </div>
+
+                <button class="button primary" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Prem Arun P</p>
+    </footer>
+    <script>
+        const navbar = document.querySelector(".navbar");
+        let lastScrollY = window.scrollY;
+
+        window.addEventListener("scroll", () => {
+            const currentScrollY = window.scrollY;
+
+            if (currentScrollY <= 20) {
+                navbar.classList.remove("navbar-hidden");
+            } else if (currentScrollY < lastScrollY) {
+                navbar.classList.remove("navbar-hidden");
+            } else {
+                navbar.classList.add("navbar-hidden");
+            }
+
+            lastScrollY = currentScrollY;
+        });
+    </script>
+</body>
+</html>
