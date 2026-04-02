@@ -6,9 +6,5 @@ Welcome to my portfolio website!
 
 
 
-🔗 Live Website: https://your-username.github.io/portfolio/
-
-
-
-
+🔗 Live Website: https://premarun37.github.io/portfolio/
 
