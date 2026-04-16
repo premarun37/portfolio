@@ -2,5 +2,5 @@
 
 Welcome to my portfolio website!
 
-## 🔗 Live Website
+## 🔗 Website
 👉 https://premarun37.github.io/portfolio/
