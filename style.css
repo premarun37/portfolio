@@ -666,3 +666,91 @@ a {
         width: 100%;
     }
 }
+
+/* ===== MOBILE OPTIMIZATION (KEEP DESKTOP LOOK) ===== */
+
+@media (max-width: 768px) {
+
+    /* 🔹 Navbar fix (horizontal scroll instead of messy wrap) */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100%;
+        padding-bottom: 6px;
+        scrollbar-width: none;
+    }
+
+    .nav-links::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav-links a {
+        white-space: nowrap;
+        font-size: 0.9rem;
+    }
+
+    /* 🔹 Hero section spacing */
+    .hero-copy h1 {
+        font-size: 2rem;
+    }
+
+    .hero-role,
+    .hero-college {
+        font-size: 0.95rem;
+    }
+
+    /* 🔹 Cards look like desktop but stacked */
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-layout {
+        grid-template-columns: 1fr;
+    }
+
+    /* 🔹 Improve card spacing */
+    .project-card,
+    .timeline-card,
+    .skill-block,
+    .about-grid,
+    .contact-card {
+        padding: 20px;
+    }
+
+    /* 🔹 Fix text wrapping */
+    .project-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .project-card p {
+        min-height: auto;
+    }
+
+    /* 🔹 Buttons full width (better UX) */
+    .button {
+        width: 100%;
+    }
+
+    /* 🔹 Form fix */
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* 🔹 Reduce section spacing slightly */
+    .section {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+}
